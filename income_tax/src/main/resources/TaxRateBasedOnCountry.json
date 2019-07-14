@@ -1,0 +1,38 @@
+[
+  {
+    "country": "india",
+    "taxRate": {
+      "ageGroup": [
+        {
+          "age": "0-60",
+          "nonTaxableIncome": 250000,
+          "taxableIncomeRate": [
+            "250000-500000|5",
+            "500000-1000000|20",
+            "1000000-|30"
+          ]
+        },
+        {
+          "age": "61-80",
+          "nonTaxableIncome": 300000,
+          "taxableIncomeRate": [
+            "300000-500000|5",
+            "500000-1000000|20",
+            "1000000-|30"
+          ]
+        },
+        {
+          "age": "81-125",
+          "nonTaxableIncome": 500000,
+          "taxableIncomeRate": [
+            "500000-1000000|20",
+            "1000000-|30"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    
+  }
+]
